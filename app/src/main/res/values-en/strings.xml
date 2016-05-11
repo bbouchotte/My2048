@@ -8,6 +8,6 @@
     <string name="rightArrowDescription">Right Arrow</string>
     <string name="upArrowDescription">Up Arrow</string>
     <string name="won"> You have won!</string>
-    <string name="win"></string>
+    <string name="win">You have won!</string>
     <string name="gameOver">Game Over</string>
 </resources>
