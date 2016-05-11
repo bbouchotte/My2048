@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--    Couleurs My2048     -->
+
+    <color name="global">#667788</color>
+    <color name="score">#c13519</color>
+    <color name="board">#4cd124</color>
+    <color name="colBoard">#4fd194</color>
+    <color name="control">#2b78c4</color>
+
+    <color name="col00">#ffd8cd</color>
+    <color name="col01">#ffb49a</color>
+    <color name="col02">#ffae73</color>
+    <color name="col03">#ffbc41</color>
+    <color name="col04">#ffa703</color>
+    <color name="col05">#f67f00</color>
+    <color name="col06">#c98300</color>
+    <color name="col07">#c96f00</color>
+    <color name="col08">#b76b00</color>
+    <color name="col09">#c33f00</color>
+    <color name="col10">#b73500</color>
+    <color name="col11">#9d2d00</color>
+    <color name="col12">#8b3000</color>
+    <color name="col13">#713b00</color>
+    <color name="col14">#5e3900</color>
+    <color name="col15">#5e3d00</color>
+    <color name="col16">#3f3600</color>
+    <color name="col17">#002126</color>
+    <color name="colNT">#ff0000</color>
+    <color name="colDT">#000000</color>
+    <color name="colBT">#ffffff</color>
+    <color name="scoreTVBGColor">#aaffffff</color>
+</resources>

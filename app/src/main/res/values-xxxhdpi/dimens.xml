@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">80dp</dimen>
+    <dimen name="activity_vertical_margin">80dp</dimen>
+    <dimen name="fab_margin">64dp</dimen>
+    <dimen name="lightPadding">20dp</dimen>
+    <dimen name="lightMargin">12dp</dimen>
+    <dimen name="scorePTVWidth">300dp</dimen>
+    <dimen name="scoreTVWidth">260dp</dimen>
+    <dimen name="VertiArrowHeight">200dp</dimen>
+    <dimen name="HorizArrowHeight">120dp</dimen>
+    <dimen name="defaultTextSize">56dp</dimen>
+</resources>

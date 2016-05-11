@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/globalLO"
+    android:weightSum="100"
+    android:background="@color/global"
+    android:padding="@dimen/smallPadding"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="bouchottebenjamin.my2048.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/boardLO"
+        android:layout_weight="50"
+        android:background="@color/colBoard"
+        >
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/rightLO"
+        android:layout_weight="50"
+        android:weightSum="100"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/scoreLO"
+            android:layout_weight="10"
+            android:paddingBottom="@dimen/lightPadding"
+            android:paddingTop="@dimen/lightPadding"
+            >
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:id="@+id/bestTRB"
+                android:rating="1"
+                android:max="17"
+                android:numStars="17"
+                android:stepSize="1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="@dimen/scoreTVWidth"
+                android:layout_height="wrap_content"
+                android:id="@+id/scoreTV"
+                android:textSize="@dimen/defaultTextSize"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/scoreTVBGColor"
+                android:layout_margin="@dimen/lightMargin"
+                />
+            <TextView
+                android:layout_width="@dimen/scorePTVWidth"
+                android:layout_height="wrap_content"
+                android:id="@+id/lastTPV"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/scoreTV"
+                android:background="@color/scoreTVBGColor"
+                android:layout_margin="@dimen/lightMargin"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/controlLO"
+            android:layout_weight="30"
+            android:background="@color/control"
+            android:padding="@dimen/controlLOPadding"
+            android:layout_below="@+id/scoreLO"
+            >
+            <ImageButton
+                android:contentDescription="@string/upArrowDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/VertiArrowHeight"
+                android:id="@+id/buttonU"
+                android:src="@drawable/arrow_down"
+                android:rotation="180"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/buttonL"
+                />
+            <ImageButton
+                android:contentDescription="@string/leftArrowDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/HorizArrowHeight"
+                android:id="@+id/buttonL"
+                android:src="@drawable/arrow_right"
+                android:background="#00000000"
+                android:rotation="180"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/buttonU"
+                />
+            <ImageButton
+                android:contentDescription="@string/rightArrowDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/HorizArrowHeight"
+                android:id="@+id/buttonR"
+                android:src="@drawable/arrow_right"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/buttonU"
+                android:layout_toRightOf="@+id/buttonU"
+                />
+            <ImageButton
+                android:contentDescription="@string/downArrowDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/VertiArrowHeight"
+                android:id="@+id/buttonD"
+                android:src="@drawable/arrow_down"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/buttonL"
+                android:layout_centerHorizontal="true"
+                />
+            <!-- Pour test portabilité -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/testPort"
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My2048</string>
+    <string name="action_settings">Settings</string>
+    <string name="launch">nouveau jeu</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="upArrowDescription">Flèche haut</string>
+    <string name="leftArrowDescription">Flèche gauche</string>
+    <string name="rightArrowDescription">Flèche droite</string>
+    <string name="downArrowDescription">Flèche bas</string>
+    <string name="gameOver">Fin de partie</string>
+    <string name="won">Vous avez gagné!</string>
+    <string name="densClass">kjkj</string>
+    <string name="dimClass">jhbhj</string>
+</resources>

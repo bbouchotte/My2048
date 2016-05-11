@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My2048</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="downArrowDescription">Down Arrow</string>
+    <string name="launch">New Game</string>
+    <string name="leftArrowDescription">Left Arrow</string>
+    <string name="rightArrowDescription">Right Arrow</string>
+    <string name="upArrowDescription">Up Arrow</string>
+    <string name="won"> You have won!</string>
+    <string name="win"></string>
+    <string name="gameOver">Game Over</string>
+</resources>
